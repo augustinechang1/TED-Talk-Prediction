@@ -41,11 +41,11 @@ Negative correlation between months_ago and views (middle left graph). Older vie
 
 ![header](images/3.png)
 
-- Regression result of trained data. Pretty good line.
-  - Model Score: 0.8428470625640061
-  - Mean Absolute Error: 0.17139969599380347
-  - Mean Squared Error: 0.056419962988649985
-  - Target Mean: 7.999365338912133
+- Regression result of trained data.
+  - __Model Score__: 0.8428470625640061
+  - __Mean Absolute Error__: 0.17139969599380347
+  - __Mean Squared Error__: 0.056419962988649985
+  - __Target Mean__: 7.999365338912133
 
 
 - Features sorted by order of absolute value of coefficient:
