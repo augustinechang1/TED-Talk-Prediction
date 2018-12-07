@@ -24,6 +24,18 @@ Answer the question above via multi linear regression analysis. Which ideas are 
 
 - Heatmap of the correlation of all rating types. The more red a box is means that the two features are highly correlated, for example "Unconvincing" and "Longwinded". This data helped with visualization for feature selection.
 
+## How do people describe TED Talks by the event type?
+
+![header](images/8.png)
+
+- People overwhelmingly attribute adjectives 'Inspiring' and 'Informative' to TED Talks.
+
+## How do views correlate with date published and duration?
+
+![header](images/5.png)
+
+Negative correlation between months_ago and views (middle left graph). Older views have more views. Duration has no significant influence on number of views (left bottom graph).
+
 ## Train_Test_Split Result
 
 ![header](images/3.png)
