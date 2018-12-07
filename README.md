@@ -1,6 +1,6 @@
 # What factors determine the most viral TED Talks?
 
-![header](Images/AeroLeads-TED_banner-1.png)
+![header](images/AeroLeads-TED_banner-1.png)
 
 ## Goal
 Answer the question above via multi linear regression analysis. Which ideas are truly worth sharing?:bulb:
@@ -14,18 +14,18 @@ Answer the question above via multi linear regression analysis. Which ideas are 
 
 ## What type of videos will get most views?
 
-![header](Images/1.png)
+![header](images/1.png)
 
 - Boxplot of top ratings (x) against views (y). Jaw-dropping, funny, and fascinating videos tend to have in general more views than others. Correlation between views and top rated category for each video.
 
 ## How do rating attributes correlate with one another?
 
-![header](Images/2.png)
+![header](images/2.png)
 
 - Heatmap of the correlation of all rating types. The more red a box is means that the two features are highly correlated, for example "Unconvincing" and "Longwinded". This data helped with visualization for feature selection.
 
 ## Train_Test_Split Result
 
-![header](Images/3.png)
+![header](images/3.png)
 
 - Regression result of trained data. Pretty good line.
