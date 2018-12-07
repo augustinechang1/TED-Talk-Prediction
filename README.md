@@ -36,8 +36,40 @@ Answer the question above via multi linear regression analysis. Which ideas are 
 
 Negative correlation between months_ago and views (middle left graph). Older views have more views. Duration has no significant influence on number of views (left bottom graph).
 
-## Train_Test_Split Result
+## Train-Test-Split Results
 
 ![header](images/3.png)
 
 - Regression result of trained data. Pretty good line.
+  - Model Score: 0.8428470625640061
+  - Mean Absolute Error: 0.17139969599380347
+  - Mean Squared Error: 0.056419962988649985
+  - Target Mean: 7.999365338912133
+
+
+- Features sorted by order of absolute value of coefficient:
+(0.04, ‘TED’),
+(0.03, ‘Unconvincing’),
+(0.03, ‘TEDGlobal’),
+(0.03, ‘Persuasive’),
+(0.03, ‘Other_TED’),
+(0.03, ‘Jaw_dropping’),
+(0.03, ‘Fascinating’),
+(0.02, ‘TEDSalon’),
+(0.02, ‘TEDMED’),
+(0.02, ‘Inspiring’),
+(0.02, ‘Funny’),
+(0.01, ‘minus_months’),
+(0.01, ‘TEDx’),
+(0.01, ‘TEDWomen’),
+(0.01, ‘OK’),
+(0.01, ‘Longwinded’),
+(0.01, ‘Ingenious’),
+(0.01, ‘Informative’),
+(0.01, ‘Courageous’),
+(0.01, ‘Beautiful’),
+(0.0, ‘total’),
+(0.0, ‘minutes’),
+(0.0, ‘duration’),
+(0.0, ‘Obnoxious’),
+(0.0, ‘Confusing’)
