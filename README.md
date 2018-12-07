@@ -20,7 +20,7 @@ Answer the question above via multi linear regression analysis. Which ideas are 
 
 ## How do rating attributes correlate with one another?
 
-![header](images/2.png)
+![header](images/4.png)
 
 - Heatmap of the correlation of all rating types. The more red a box is means that the two features are highly correlated, for example "Unconvincing" and "Longwinded". This data helped with visualization for feature selection.
 
