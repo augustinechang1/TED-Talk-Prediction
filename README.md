@@ -6,7 +6,7 @@
 Answer the question above via multi linear regression analysis. Which ideas are truly worth sharing?:bulb:
 
 ## Data
-- We used a dataset of 2550 unique entries from Kaggle, which contain information about talks. Features include types of ratings, Ted Talks (TED x, global, etc), duration and published date of the video.
+- We used a dataset of 2550 unique entries from Kaggle, which contain information about talks. Features include types of ratings, Ted Talks (TEDx, TEDGlobal, etc), duration and published date of the video.
 
 - The most painstaking process was cleaning & preprocessing of data. Using numpy and pandas, we created columns of individual features according to its categorical & continuous state and converted it to a dataframe. First OLS regression did not return statistically significant results, so we scaled the data to create a more accurate relationship between target and features, resulting in __70% R-squared__ and __p-values under 1%__. So, feel free to observe our data without your colored glasses.
 
@@ -28,6 +28,7 @@ Answer the question above via multi linear regression analysis. Which ideas are 
 
 ![header](images/8.png)
 
+- X-axis = Count of Talks
 - People overwhelmingly attribute adjectives 'Inspiring' and 'Informative' to TED Talks.
 
 ## How do views correlate with date published and duration?
