@@ -10,7 +10,7 @@ Answer the question above via multi linear regression analysis. Which ideas are 
 
 - The most painstaking process was cleaning & preprocessing of data. Using numpy and pandas, we created columns of individual features according to its categorical & continuous state and converted it to a dataframe. First OLS regression did not return statistically significant results, so we scaled the data to create a more accurate relationship between target and features, resulting in __70% R-squared__ and __p-values under 1%__. So, feel free to observe our data without your colored glasses.
 
-- During the process we were able to perform explanatory analysis and create dope graphs. Here are some:
+- Throughout the process we were able to perform explanatory analysis, create dope graphs and answer some critical questions. Here are some:
 
 ## What type of videos will get most views?
 
